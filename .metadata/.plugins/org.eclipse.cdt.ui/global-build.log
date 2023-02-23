@@ -1,0 +1,736 @@
+12:56:16 **** Build of configuration Debug for project uniqueno ****
+make all 
+Building file: ../src/uniqueno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/uniqueno.d" -MT"src/uniqueno.o" -o "src/uniqueno.o" "../src/uniqueno.c"
+Finished building: ../src/uniqueno.c
+ 
+Building target: uniqueno
+Invoking: GCC C Linker
+gcc  -o "uniqueno"  ./src/uniqueno.o   
+Finished building target: uniqueno
+ 
+12:56:28 **** Incremental Build of configuration Debug for project uniqueno ****
+make all 
+Building file: ../src/uniqueno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/uniqueno.d" -MT"src/uniqueno.o" -o "src/uniqueno.o" "../src/uniqueno.c"
+../src/uniqueno.c: In function ‘main’:
+../src/uniqueno.c:15:23: error: redeclaration of ‘limit’ with no linkage
+  int limit,i,j,a[100],limit,count;
+                       ^~~~~
+../src/uniqueno.c:15:6: note: previous declaration of ‘limit’ was here
+  int limit,i,j,a[100],limit,count;
+      ^~~~~
+src/subdir.mk:18: recipe for target 'src/uniqueno.o' failed
+make: *** [src/uniqueno.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:57:03 **** Incremental Build of configuration Debug for project uniqueno ****
+make all 
+Building file: ../src/uniqueno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/uniqueno.d" -MT"src/uniqueno.o" -o "src/uniqueno.o" "../src/uniqueno.c"
+Finished building: ../src/uniqueno.c
+ 
+Building target: uniqueno
+Invoking: GCC C Linker
+gcc  -o "uniqueno"  ./src/uniqueno.o   
+Finished building target: uniqueno
+ 
+12:57:05 **** Incremental Build of configuration Debug for project uniqueno ****
+make all 
+make: Nothing to be done for 'all'.
+12:57:58 **** Incremental Build of configuration Debug for project uniqueno ****
+make all 
+Building file: ../src/uniqueno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/uniqueno.d" -MT"src/uniqueno.o" -o "src/uniqueno.o" "../src/uniqueno.c"
+Finished building: ../src/uniqueno.c
+ 
+Building target: uniqueno
+Invoking: GCC C Linker
+gcc  -o "uniqueno"  ./src/uniqueno.o   
+Finished building target: uniqueno
+ 
+12:57:59 **** Incremental Build of configuration Debug for project uniqueno ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:51 **** Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:30:06 **** Incremental Build of configuration Debug for project uniqueno ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:16 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:27 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+../src/frequency.c: In function ‘main’:
+../src/frequency.c:16:10: warning: unused variable ‘k’ [-Wunused-variable]
+  int i,j,k,limit=8,count=1;
+          ^
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:31:01 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+../src/frequency.c: In function ‘main’:
+../src/frequency.c:16:10: warning: unused variable ‘k’ [-Wunused-variable]
+  int i,j,k,limit=8,count=1;
+          ^
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:31:29 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+../src/frequency.c: In function ‘main’:
+../src/frequency.c:16:10: warning: unused variable ‘k’ [-Wunused-variable]
+  int i,j,k,limit=8,count=1;
+          ^
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:32:09 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+../src/frequency.c: In function ‘main’:
+../src/frequency.c:16:10: warning: unused variable ‘k’ [-Wunused-variable]
+  int i,j,k,limit=8,count;
+          ^
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:33:57 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:36:22 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+../src/frequency.c: In function ‘main’:
+../src/frequency.c:20:8: error: expected expression before ‘{’ token
+     if({
+        ^
+../src/frequency.c:31:4: error: expected expression before ‘}’ token
+   }}
+    ^
+../src/frequency.c:16:8: warning: unused variable ‘j’ [-Wunused-variable]
+src/subdir.mk:18: recipe for target 'src/frequency.o' failed
+  int i,j,limit=8,count;
+        ^
+../src/frequency.c: At top level:
+../src/frequency.c:38:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+../src/frequency.c:39:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/frequency.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:37:05 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+../src/frequency.c: In function ‘main’:
+../src/frequency.c:39:1: error: expected declaration or statement at end of input
+ }
+ ^
+src/subdir.mk:18: recipe for target 'src/frequency.o' failed
+make: *** [src/frequency.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:37:39 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:37:51 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:39:04 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:39:13 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+make: Nothing to be done for 'all'.
+20:40:39 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+20:44:42 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+Building file: ../src/frequency.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/frequency.d" -MT"src/frequency.o" -o "src/frequency.o" "../src/frequency.c"
+Finished building: ../src/frequency.c
+ 
+Building target: frequency
+Invoking: GCC C Linker
+gcc  -o "frequency"  ./src/frequency.o   
+Finished building target: frequency
+ 
+10:44:09 **** Build of configuration Debug for project frequency ****
+make all 
+make: Nothing to be done for 'all'.
+10:44:30 **** Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+../src/ladder1.5.c: In function ‘main’:
+../src/ladder1.5.c:21:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../src/ladder1.5.c:15:12: warning: unused variable ‘limit’ [-Wunused-variable]
+  int i,j,k,limit=3,m=2;
+            ^~~~~
+../src/ladder1.5.c:15:10: warning: unused variable ‘k’ [-Wunused-variable]
+  int i,j,k,limit=3,m=2;
+          ^
+src/subdir.mk:18: recipe for target 'src/ladder1.5.o' failed
+make: *** [src/ladder1.5.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:45:11 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+make: Nothing to be done for 'all'.
+10:45:14 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+make: Nothing to be done for 'all'.
+10:45:28 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+../src/ladder1.5.c: In function ‘main’:
+../src/ladder1.5.c:21:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../src/ladder1.5.c:15:12: warning: unused variable ‘limit’ [-Wunused-variable]
+  int i,j,k,limit=3,m=2;
+            ^~~~~
+../src/ladder1.5.c:15:10: warning: unused variable ‘k’ [-Wunused-variable]
+  int i,j,k,limit=3,m=2;
+          ^
+src/subdir.mk:18: recipe for target 'src/ladder1.5.o' failed
+make: *** [src/ladder1.5.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:46:05 **** Incremental Build of configuration Debug for project frequency ****
+make all 
+make: Nothing to be done for 'all'.
+10:46:29 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+10:46:49 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:50:53 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+../src/ladder1.5.c: In function ‘main’:
+../src/ladder1.5.c:31:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+src/subdir.mk:18: recipe for target 'src/ladder1.5.o' failed
+make: *** [src/ladder1.5.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:51:05 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+10:53:18 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+10:56:03 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+10:59:47 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+11:00:22 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+11:02:38 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+11:03:12 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+11:04:53 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+Building file: ../src/ladder1.5.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.5.d" -MT"src/ladder1.5.o" -o "src/ladder1.5.o" "../src/ladder1.5.c"
+Finished building: ../src/ladder1.5.c
+ 
+Building target: ladder1.5
+Invoking: GCC C Linker
+gcc  -o "ladder1.5"  ./src/ladder1.5.o   
+Finished building target: ladder1.5
+ 
+18:10:09 **** Incremental Build of configuration Debug for project ladder1.5 ****
+make all 
+make: Nothing to be done for 'all'.
+18:10:19 **** Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:10:34 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:10:55 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+../src/piramid.c: In function ‘main’:
+../src/piramid.c:28:2: error: expected ‘;’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/piramid.o' failed
+make: *** [src/piramid.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:11:10 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+../src/piramid.c: In function ‘main’:
+../src/piramid.c:27:13: error: expected ‘;’ before ‘}’ token
+ printf("\n")}
+             ^
+src/subdir.mk:18: recipe for target 'src/piramid.o' failed
+make: *** [src/piramid.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:11:23 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:12:04 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:12:12 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:12:36 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:12:46 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:12:54 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:13:02 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:13:15 **** Incremental Build of configuration Debug for project piramid ****
+make all 
+Building file: ../src/piramid.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/piramid.d" -MT"src/piramid.o" -o "src/piramid.o" "../src/piramid.c"
+Finished building: ../src/piramid.c
+ 
+Building target: piramid
+Invoking: GCC C Linker
+gcc  -o "piramid"  ./src/piramid.o   
+Finished building target: piramid
+ 
+18:46:38 **** Build of configuration Debug for project india ****
+make all 
+Building file: ../src/india.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/india.d" -MT"src/india.o" -o "src/india.o" "../src/india.c"
+Finished building: ../src/india.c
+ 
+Building target: india
+Invoking: GCC C Linker
+gcc  -o "india"  ./src/india.o   
+Finished building target: india
+ 
+18:47:33 **** Incremental Build of configuration Debug for project india ****
+make all 
+Building file: ../src/india.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/india.d" -MT"src/india.o" -o "src/india.o" "../src/india.c"
+../src/india.c: In function ‘main’:
+../src/india.c:16:14: error: ‘MALAYALAM’ undeclared (first use in this function)
+  char a[10]={MALAYALAM};
+              ^~~~~~~~~
+../src/india.c:16:14: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/india.o] Error 1
+src/subdir.mk:18: recipe for target 'src/india.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+18:48:08 **** Incremental Build of configuration Debug for project india ****
+make all 
+Building file: ../src/india.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/india.d" -MT"src/india.o" -o "src/india.o" "../src/india.c"
+../src/india.c: In function ‘main’:
+../src/india.c:16:15: error: ‘MALAYALAM’ undeclared (first use in this function)
+  char a[100]={MALAYALAM};
+               ^~~~~~~~~
+../src/india.c:16:15: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:18: recipe for target 'src/india.o' failed
+make: *** [src/india.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+18:48:53 **** Incremental Build of configuration Debug for project india ****
+make all 
+Building file: ../src/india.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/india.d" -MT"src/india.o" -o "src/india.o" "../src/india.c"
+../src/india.c: In function ‘main’:
+../src/india.c:16:12: error: ‘MALAYALAM’ undeclared (first use in this function)
+  char a[]={MALAYALAM};
+            ^~~~~~~~~
+../src/india.c:16:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/india.o] Error 1
+src/subdir.mk:18: recipe for target 'src/india.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+18:49:16 **** Incremental Build of configuration Debug for project india ****
+make all 
+Building file: ../src/india.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/india.d" -MT"src/india.o" -o "src/india.o" "../src/india.c"
+../src/india.c: In function ‘main’:
+../src/india.c:16:12: warning: character constant too long for its type
+  char a[]={'MALAYALAM'};
+            ^~~~~~~~~~~
+../src/india.c:16:12: warning: overflow in implicit constant conversion [-Woverflow]
+Finished building: ../src/india.c
+ 
+Building target: india
+Invoking: GCC C Linker
+gcc  -o "india"  ./src/india.o   
+Finished building target: india
+ 
+22:28:49 **** Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+Finished building: ../src/pattern10.c
+ 
+Building target: pattern10
+Invoking: GCC C Linker
+gcc  -o "pattern10"  ./src/pattern10.o   
+Finished building target: pattern10
+ 
+22:28:59 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+make: Nothing to be done for 'all'.
+22:31:05 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+../src/pattern10.c: In function ‘main’:
+../src/pattern10.c:19:6: error: expected expression before ‘||’ token
+      || j == (2 * limit) - 1 || i == 1 || j == limit)
+      ^~
+src/subdir.mk:18: recipe for target 'src/pattern10.o' failed
+make: *** [src/pattern10.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:31:26 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+Finished building: ../src/pattern10.c
+ 
+Building target: pattern10
+Invoking: GCC C Linker
+gcc  -o "pattern10"  ./src/pattern10.o   
+Finished building target: pattern10
+ 
+22:32:57 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+Finished building: ../src/pattern10.c
+ 
+Building target: pattern10
+Invoking: GCC C Linker
+gcc  -o "pattern10"  ./src/pattern10.o   
+Finished building target: pattern10
+ 
+22:34:44 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+Finished building: ../src/pattern10.c
+ 
+Building target: pattern10
+Invoking: GCC C Linker
+gcc  -o "pattern10"  ./src/pattern10.o   
+Finished building target: pattern10
+ 
+22:35:03 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+Finished building: ../src/pattern10.c
+ 
+Building target: pattern10
+Invoking: GCC C Linker
+gcc  -o "pattern10"  ./src/pattern10.o   
+Finished building target: pattern10
+ 
+22:35:45 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+Finished building: ../src/pattern10.c
+ 
+Building target: pattern10
+Invoking: GCC C Linker
+gcc  -o "pattern10"  ./src/pattern10.o   
+Finished building target: pattern10
+ 
+22:38:26 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+Finished building: ../src/pattern10.c
+ 
+Building target: pattern10
+Invoking: GCC C Linker
+gcc  -o "pattern10"  ./src/pattern10.o   
+Finished building target: pattern10
+ 

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;searchingprime&apos; to &apos;palindrome&apos;" description="Rename resource &apos;searchingprime&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/searchingprime" name="palindrome" stamp="1656743755479" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;palindrome&apos;" deleteContents="true" description="Delete resource &apos;palindrome&apos;" element1="/palindrome" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1656743856896"/>
+</session>

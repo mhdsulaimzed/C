@@ -1,0 +1,6 @@
+12:55:59 **** Incremental Build of configuration Debug for project ladder1.4 ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:55:59 Build Finished. 0 errors, 0 warnings. (took 380ms)
+

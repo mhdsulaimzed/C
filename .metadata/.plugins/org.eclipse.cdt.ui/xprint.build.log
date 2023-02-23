@@ -1,0 +1,6 @@
+23:03:20 **** Incremental Build of configuration Debug for project xprint ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:03:20 Build Finished. 0 errors, 0 warnings. (took 85ms)
+

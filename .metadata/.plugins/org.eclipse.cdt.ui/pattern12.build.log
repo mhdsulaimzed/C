@@ -1,0 +1,15 @@
+23:03:17 **** Incremental Build of configuration Debug for project pattern12 ****
+make all 
+Building file: ../src/pattern12.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern12.d" -MT"src/pattern12.o" -o "src/pattern12.o" "../src/pattern12.c"
+../src/pattern12.c: In function ‘main’:
+../src/pattern12.c:22:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+src/subdir.mk:18: recipe for target 'src/pattern12.o' failed
+make: *** [src/pattern12.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+23:03:17 Build Failed. 3 errors, 0 warnings. (took 128ms)
+

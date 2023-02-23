@@ -1,0 +1,15 @@
+23:03:18 **** Incremental Build of configuration Debug for project pattern6 ****
+make all 
+Building file: ../src/pattern6.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern6.d" -MT"src/pattern6.o" -o "src/pattern6.o" "../src/pattern6.c"
+../src/pattern6.c: In function ‘main’:
+../src/pattern6.c:31:1: error: expected expression before ‘int’
+ int main(void) {
+ ^~~
+src/subdir.mk:18: recipe for target 'src/pattern6.o' failed
+make: *** [src/pattern6.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+23:03:18 Build Failed. 3 errors, 0 warnings. (took 128ms)
+

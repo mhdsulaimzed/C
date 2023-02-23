@@ -1,0 +1,6 @@
+23:03:30 **** Incremental Build of configuration Debug for project sumofarray ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:03:30 Build Finished. 0 errors, 0 warnings. (took 96ms)
+

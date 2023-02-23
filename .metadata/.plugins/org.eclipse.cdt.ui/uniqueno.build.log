@@ -1,0 +1,6 @@
+20:30:06 **** Incremental Build of configuration Debug for project uniqueno ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:30:06 Build Finished. 0 errors, 0 warnings. (took 84ms)
+

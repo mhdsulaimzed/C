@@ -1,0 +1,20 @@
+18:49:16 **** Incremental Build of configuration Debug for project india ****
+make all 
+Building file: ../src/india.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/india.d" -MT"src/india.o" -o "src/india.o" "../src/india.c"
+../src/india.c: In function ‘main’:
+../src/india.c:16:12: warning: character constant too long for its type
+  char a[]={'MALAYALAM'};
+            ^~~~~~~~~~~
+../src/india.c:16:12: warning: overflow in implicit constant conversion [-Woverflow]
+Finished building: ../src/india.c
+ 
+Building target: india
+Invoking: GCC C Linker
+gcc  -o "india"  ./src/india.o   
+Finished building target: india
+ 
+
+18:49:17 Build Finished. 0 errors, 2 warnings. (took 224ms)
+

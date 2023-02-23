@@ -1,0 +1,18 @@
+12:07:07 **** Incremental Build of configuration Debug for project palindrome ****
+make all 
+Building file: ../src/palindrome.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/palindrome.d" -MT"src/palindrome.o" -o "src/palindrome.o" "../src/palindrome.c"
+../src/palindrome.c: In function ‘main’:
+../src/palindrome.c:15:29: error: unterminated comment
+  puts("!!!Hello World!!!"); /* prints !!!Hello World!!! *
+                             ^
+../src/palindrome.c:15:2: error: expected declaration or statement at end of input
+  puts("!!!Hello World!!!"); /* prints !!!Hello World!!! *
+src/subdir.mk:18: recipe for target 'src/palindrome.o' failed
+  ^~~~
+make: *** [src/palindrome.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+12:07:07 Build Failed. 4 errors, 0 warnings. (took 122ms)
+

@@ -1,0 +1,15 @@
+11:05:33 **** Incremental Build of configuration Debug for project ladder1.2 ****
+make all 
+Building file: ../src/ladder1.2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ladder1.2.d" -MT"src/ladder1.2.o" -o "src/ladder1.2.o" "../src/ladder1.2.c"
+Finished building: ../src/ladder1.2.c
+ 
+Building target: ladder1.2
+Invoking: GCC C Linker
+gcc  -o "ladder1.2"  ./src/ladder1.2.o   
+Finished building target: ladder1.2
+ 
+
+11:05:33 Build Finished. 0 errors, 0 warnings. (took 251ms)
+

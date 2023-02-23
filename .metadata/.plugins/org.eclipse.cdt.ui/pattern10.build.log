@@ -1,0 +1,15 @@
+22:38:26 **** Incremental Build of configuration Debug for project pattern10 ****
+make all 
+Building file: ../src/pattern10.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pattern10.d" -MT"src/pattern10.o" -o "src/pattern10.o" "../src/pattern10.c"
+Finished building: ../src/pattern10.c
+ 
+Building target: pattern10
+Invoking: GCC C Linker
+gcc  -o "pattern10"  ./src/pattern10.o   
+Finished building target: pattern10
+ 
+
+22:38:26 Build Finished. 0 errors, 0 warnings. (took 174ms)
+
